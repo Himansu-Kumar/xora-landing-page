@@ -8,8 +8,7 @@ const Testimonials = () => {
   return (
     <section className="relative z-2 py-24 md:py-28 lg:py-40">
       <div className="container block lg:flex">
-        
-        <div className="testimonials_head-res relative self-start z-2 flex-300">
+        <div className="testimonials_head-res relative z-2 flex-300">
           <p className="caption mb-5 max-md:m-2.5">Wall of Love</p>
           <h3 className="h3 max-md:h5 text-p4">Words form our fans</h3>
         </div>
@@ -24,7 +23,7 @@ const Testimonials = () => {
               />
             ))}
           </div>
-          
+
           <div className="flex-50">
             {testimonials.slice(halfLength).map((testimonial) => (
               <Testimonialitems
